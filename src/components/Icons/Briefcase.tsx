@@ -1,6 +1,4 @@
-type Props = {};
-
-const Briefcase = (props: Props) => {
+const Briefcase = () => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

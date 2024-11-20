@@ -2,9 +2,7 @@ import Briefcase from "../Icons/Briefcase";
 import Location from "../Icons/Location";
 import TypeWriter from "../TypeWriter";
 
-type Props = {};
-
-const Header = (props: Props) => {
+const Header = () => {
   return (
     <header className="space-y-5">
       <TypeWriter text={"Hazem Ben Abdelhafidh"} />
@@ -19,10 +17,10 @@ const Header = (props: Props) => {
         </div>
       </div>
       <p className="text-[var(--text)]">
-        I'm a software engineer and a full-stack developer. I'm passionate about
-        building software and web applications that solve real-world problems.
-        I'm currently working on my personal projects and learning new
-        technologies.
+        I&apos;m a software engineer and a full-stack developer. I&apos;m
+        passionate about building software and web applications that solve
+        real-world problems. I&apos;m currently working on my personal projects
+        and learning new technologies.
       </p>
     </header>
   );

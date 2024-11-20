@@ -17,7 +17,7 @@ export const work = [
   {
     organization: "Chifco",
     link: "https://chifco.com/",
-    position: "Intern Full Stack Engineer ",
+    position: "Intern Full Stack Engineer (feb 2022 - juin 2022)",
     activities: [
       "Built an analytical dashboard based on the Google Analytics API, OAuth 2.0 protocol, React, and Express, allowing users to intuitively monitor their website traffic",
     ],

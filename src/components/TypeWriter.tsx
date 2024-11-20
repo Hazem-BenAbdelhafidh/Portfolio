@@ -24,7 +24,7 @@ const TypeWriter = (props: Props) => {
       };
     }
     setShowCursor(false);
-  }, [index, delay, props.text]);
+  }, [index, props.text]);
 
   return (
     <h1 className="text-4xl font-bold text-[var(--primary)] text-left">
