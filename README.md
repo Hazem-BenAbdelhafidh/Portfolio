@@ -2,7 +2,7 @@
 
 Welcome to my portfolio repository! This project showcases my skills, projects, and experience as a developer. It is designed to give potential employers and collaborators insight into my technical expertise and creativity. 🚀
 
-It is inspired by this [portfolio](https://www.nexxel.dev/):
+It is inspired by this [portfolio](https://www.nexxel.dev/)
 
 ---
 
