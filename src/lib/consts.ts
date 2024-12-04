@@ -4,7 +4,7 @@ export const work = [
     link: "https://www.sastec-group.com/",
     position: "Full stack engineer (oct 2022 - Aug 2024)",
     activities: [
-      "Refined React projects by integrating new technologies like React Query, Zustand , Tailwind and Zod",
+      "Refined React projects by integrating new technologies like React Query, Zustand, Tailwind and Zod",
       "Maintained and enhanced existing projects using frameworks like Vue and React, effectively integrated new features and fixed bugs to improve functionality",
       "Designed and developed an advanced webinar application utilizing Go, MySQL, React and WebSockets, engineered to support a capacity of 20,000 concurrent users with interactive chat and question submission functionalities",
       "Developed and deployed a npm package used by 4 different clients for custom requirements",
@@ -21,5 +21,21 @@ export const work = [
     activities: [
       "Built an analytical dashboard based on the Google Analytics API, OAuth 2.0 protocol, React, and Express, allowing users to intuitively monitor their website traffic",
     ],
+  },
+];
+
+export const projects = [
+  {
+    name: "Json-parser",
+    description:
+      "This project is a JSON parser written in typescript. It allows you to parse JSON data and convert it into a usable format within your application.",
+    achievements: [
+      "Parse JSON strings into objects",
+      "Support for various data types (strings, numbers, arrays, objects, booleans, null)",
+      "Error handling for invalid JSON",
+      "Unit tests for both lexer and parser with Jest",
+    ],
+    technologies: ["typescript", "jest"],
+    link: "https://github.com/Hazem-BenAbdelhafidh/Json-parser",
   },
 ];
