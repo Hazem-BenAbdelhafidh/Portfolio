@@ -4,7 +4,7 @@ import Links from "@/components/Links/Links";
 
 export default function Home() {
   return (
-    <main className="flex flex-col gap-3 row-start-2 items-start container text-justify">
+    <main className="flex flex-col w-full gap-3 row-start-2 items-start ">
       <Header />
       <Work />
       <Links />

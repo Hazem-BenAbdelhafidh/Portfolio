@@ -8,7 +8,7 @@ type Props = {
 const Section = (props: Props) => {
   return (
     <section className="space-y-4 mt-4">
-      <Heading text={props.title} />
+      <Heading>{props.title}</Heading>
       {props.children}
     </section>
   );

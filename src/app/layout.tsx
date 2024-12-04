@@ -15,7 +15,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={` font-mono  antialiased  flex  justify-center p-6`}>
-        <div className="max-w-4xl w-[56rem]">
+        <div className=" max-w-4xl w-[56rem]">
           <Navigation />
           {children}
         </div>

@@ -27,7 +27,7 @@ const TypeWriter = (props: Props) => {
   }, [index, props.text]);
 
   return (
-    <h1 className="text-4xl font-bold text-[var(--primary)] text-left">
+    <h1 className="text-4xl font-bold text-[var(--primary)] text-left inline-block">
       {currentText}
       {showCursor && <span className="text-[var(--accent)]">|</span>}
     </h1>

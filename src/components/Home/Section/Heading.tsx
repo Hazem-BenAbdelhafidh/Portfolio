@@ -1,11 +1,11 @@
 type Props = {
-  text: string;
+  children: React.ReactNode;
 };
 
 const Heading = (props: Props) => {
   return (
     <h2 className="text-2xl font-bold">
-      <span className="text-[var(--accent)]">●</span> {props.text}
+      <span className="text-[var(--accent)]">●</span> {props.children}
     </h2>
   );
 };
