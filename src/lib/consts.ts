@@ -38,4 +38,16 @@ export const projects = [
     technologies: ["typescript", "jest"],
     link: "https://github.com/Hazem-BenAbdelhafidh/Json-parser",
   },
+  {
+    name: "Rate Limiter",
+    description:
+      "This project is a rate limiter implementation in Golang. A rate limiter is used to control the rate of traffic sent or received by a network interface controller",
+    achievements: [
+      "Limit the number of requests a user can make in a given time period",
+      "Configurable time windows and request limits",
+      "Lightweight and easy to integrate",
+    ],
+    technologies: ["golang"],
+    link: "https://github.com/Hazem-BenAbdelhafidh/Rate-limiter",
+  },
 ];
