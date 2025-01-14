@@ -51,4 +51,16 @@ export const projects = [
     technologies: ["golang"],
     link: "https://github.com/Hazem-BenAbdelhafidh/Rate-limiter",
   },
+  {
+    name: "Tournify",
+    description:
+      "A backend for a platform that enables users to create or join online Game tournaments.",
+    achievements: [
+      "Create and join tournaments",
+      "Manage tournaments",
+      "Signup and Login",
+      "Unit and integration tests with testify",
+    ],
+    technologies: ["golang", "postgresql", "docker", "testify"],
+  },
 ];
