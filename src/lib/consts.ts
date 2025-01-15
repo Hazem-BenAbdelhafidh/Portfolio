@@ -1,4 +1,11 @@
-export const work = [
+type Work = {
+  organization: string;
+  link: string;
+  position: string;
+  activities: string[];
+};
+
+export const work: Work[] = [
   {
     organization: "Sastec Tn",
     link: "https://www.sastec-group.com/",
@@ -25,7 +32,15 @@ export const work = [
   },
 ];
 
-export const projects = [
+type Project = {
+  name: string;
+  description: string;
+  achievements: string[];
+  technologies: string[];
+  link: string;
+};
+
+export const projects: Project[] = [
   {
     name: "Json-parser",
     description:
@@ -62,5 +77,6 @@ export const projects = [
       "Unit and integration tests with testify",
     ],
     technologies: ["golang", "postgresql", "docker", "testify"],
+    link: "https://github.com/Hazem-BenAbdelhafidh/Tournify",
   },
 ];
